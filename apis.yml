@@ -1,8 +1,25 @@
 aid: syenta
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/syenta.png
 name: Syenta
-description: 'Syenta is a company surfaced as a portfolio company of playground-global and added to the
-  API Evangelist network as a stub for enrichment. Sector: automation. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Syenta is an Australian deep-tech semiconductor company (founded 2022, spun out of the Australian
+  National University, with teams across Australia, Europe and the United States) building manufacturing
+  equipment for advanced chip packaging. Its proprietary Localized Electrochemical Manufacturing (LEM)
+  technology combines material deposition and 3D patterning in a single step to produce sub-micron High-Resolution
+  Interconnects on large (>1000 mm2) packages, targeting the chip-to-chip bandwidth bottleneck in AI
+  computing; its Achyon production tool delivers wafer-level system integration at high density. Backed
+  by Playground Global and Australia''s National Reconstruction Fund (Series A), Syenta is a hardware /
+  fabrication-equipment maker and publishes no public developer API, SDK, or documentation surface.'
 url: https://raw.githubusercontent.com/api-evangelist/syenta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Automation
+- Semiconductors
+- Advanced Packaging
+- Chip Manufacturing
+- Deep Tech
+- Hardware
+- AI Infrastructure
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/syenta-domain-security.yml
 - type: Website
   url: https://www.syenta.com/
+- type: Careers
+  url: https://www.syenta.com/careers
+- type: News
+  url: https://www.syenta.com/news
+- type: LinkedIn
+  url: https://www.linkedin.com/company/syenta
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
